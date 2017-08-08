@@ -10,6 +10,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * Created by nsmagin on 12.07.2017.
  */
+
 public class DiceBot extends TelegramLongPollingBot {
 
 
