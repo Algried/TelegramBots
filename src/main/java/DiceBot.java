@@ -43,7 +43,7 @@ public class DiceBot extends TelegramLongPollingBot {
 
 
             SendMessage message;
-            if (count > 0 && dice > 1) {
+            if (count > 0 && dice > 1 && count <= 100 && dice <= 1000) {
                 HashMap<Integer, Integer> result = new HashMap<>();
                 result = rollDice(result, count, dice);
                 String resultString = " (";
