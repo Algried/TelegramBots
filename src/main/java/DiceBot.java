@@ -96,7 +96,7 @@ public class DiceBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "403688194:AAEkBIfw8YdfJ0B7pjgfYaSlw7CKjSqtRAA";
+        return "";
     }
 
 
