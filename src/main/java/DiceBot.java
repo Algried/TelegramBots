@@ -19,10 +19,6 @@ public class DiceBot extends TelegramLongPollingBot {
     public void onUpdateReceived(Update update) {
 
 
-        System.out.println(update.toString());
-
-
-
 
 
         if (update.hasMessage() && update.getMessage().hasText() && update.getMessage().getText().matches("/r[\\d]*d[\\d]*|/r[\\d]*d[\\d]*[ ]*[\\+|\\-][ ]*[\\d]*") ) {
@@ -100,7 +96,7 @@ public class DiceBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "";
+        return "403688194:AAEkBIfw8YdfJ0B7pjgfYaSlw7CKjSqtRAA";
     }
 
 
